@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediLink - Your Prescription, Made Simple</title>
+    <link rel="stylesheet" href="script_intro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <a href="#hero" class="brand-logo">MediLink</a>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#hero" class="nav-link">Home</a>
+                    <a href="#problems" class="nav-link">Why MediLink</a>
+                    <a href="#solution" class="nav-link">How It Works</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#cta" class="nav-link">Get Started</a>
+                </div>
+                <div class="nav-actions">
+                    <button class="nav-cta-btn" id="navCtaButton">Try Free</button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shape"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="hero-headline">Linking Every Prescription To Your Medical Story</h1>
+                    <p class="hero-tagline">Scan, understand, and manage your medicines with one snap.</p>
+                    <div class="hero-actions">
+                        <button class="btn-primary" id="ctaButton">Try MediLink</button>
+                        <a href="#solution" class="btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-visual">
+                        <div class="floating-elements">
+                            <div class="floating-pill pill-1">💊</div>
+                            <div class="floating-pill pill-2">🏥</div>
+                            <div class="floating-pill pill-3">📋</div>
+                            <div class="floating-pill pill-4">⏰</div>
+                        </div>
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <div class="app-interface">
+                                    <div class="app-header">
+                                        <div class="status-bar">
+                                            <span class="time">9:41</span>
+                                            <span class="battery">🔋</span>
+                                        </div>
+                                        <h3>MediLink Scanner</h3>
+                                    </div>
+                                    <div class="scan-area">
+                                        <div class="scan-frame"></div>
+                                        <p class="scan-text">Tap to scan prescription</p>
+                                    </div>
+                                    <div class="recent-scans">
+                                        <div class="scan-item">
+                                            <div class="med-icon">💊</div>
+                                            <div class="med-info">
+                                                <span class="med-name">Amoxicillin</span>
+                                                <span class="med-dose">500mg</span>
+                                            </div>
+                                        </div>
+                                        <div class="scan-item">
+                                            <div class="med-icon">🩺</div>
+                                            <div class="med-info">
+                                                <span class="med-name">Ibuprofen</span>
+                                                <span class="med-dose">200mg</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-bubbles">
+                            <div class="bubble bubble-1">
+                                <span class="bubble-icon">📸</span>
+                                <span class="bubble-text">Instant Scan</span>
+                            </div>
+                            <div class="bubble bubble-2">
+                                <span class="bubble-icon">🔔</span>
+                                <span class="bubble-text">Smart Reminders</span>
+                            </div>
+                            <div class="bubble bubble-3">
+                                <span class="bubble-icon">⚠️</span>
+                                <span class="bubble-text">Safety Alerts</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section" id="problems">
+        <div class="container">
+            <h2 class="section-title">Why MediLink?</h2>
+            <div class="problem-cards">
+                <div class="problem-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                            <line x1="12" y1="9" x2="12" y2="13"></line>
+                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Unreadable Prescriptions</h3>
+                    <p class="card-description">Handwriting errors lead to confusion and mistakes.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12,6 12,12 16,14"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Missed Doses</h3>
+                    <p class="card-description">Without reminders, patients skip important medications.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14,2 14,8 20,8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10,9 9,9 8,9"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Drug Conflicts</h3>
+                    <p class="card-description">Mixing incompatible drugs can cause serious harm.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4"></path>
+                            <path d="M21 12c.552 0 1-.448 1-1V8a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v3c0 .552.448 1 1 1h18z"></path>
+                            <path d="M21 16c.552 0 1-.448 1-1v-3c0-.552-.448-1-1-1H3c-.552 0-1 .448-1 1v3c0 .552.448 1 1 1h18z"></path>
+                            <circle cx="7" cy="8" r="1"></circle>
+                            <circle cx="7" cy="16" r="1"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Scattered Medical Info</h3>
+                    <p class="card-description">Medical records spread across multiple apps and systems create confusion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section" id="solution">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-left">
+                    <div class="solution-mockup">
+                        <div class="mockup-screen">
+                            <div class="scan-demo">
+                                <div class="scan-frame"></div>
+                                <div class="scan-result">
+                                    <div class="result-line"></div>
+                                    <div class="result-line"></div>
+                                    <div class="result-line short"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-right">
+                    <h2 class="section-title">How MediLink Works</h2>
+                    <div class="solution-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Snap Your Prescription</h3>
+                                <p>Simply take a photo in the MediLink app.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Get a Clear, Digital Copy</h3>
+                                <p>Readable text with medical terms explained.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Set Reminders & Alerts</h3>
+                                <p>Never miss a dose and avoid dangerous interactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <h2 class="section-title">Everything You Need</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">OCR Prescription Scan</h3>
+                    <p class="feature-description">Advanced text recognition converts handwritten prescriptions to digital format</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                            <line x1="12" y1="9" x2="12" y2="13"></line>
+                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Drug Interaction Alerts</h3>
+                    <p class="feature-description">Real-time warnings about potentially dangerous medication combinations</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Dose Reminders</h3>
+                    <p class="feature-description">Customizable notifications ensure you never miss a medication</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 3v5h5m6-5v5h5m-11 4v5h5m6-5v5h5"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">History Timeline</h3>
+                    <p class="feature-description">Track your medication journey with detailed records and insights</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14,2 14,8 20,8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">PDF & QR Export</h3>
+                    <p class="feature-description">Share prescriptions digitally with healthcare providers and pharmacies</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"></path>
+                            <path d="M8 15v-5a2 2 0 0 1 4 0v5m-4-3h4m7-5.5L21 10.5v4L19 16"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Trusted Pharmacy Links</h3>
+                    <p class="feature-description">Connect directly with verified pharmacies for prescription fulfillment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <h2 class="cta-headline">Start managing your prescriptions smarter — it's free.</h2>
+            <button class="cta-button" id="ctaButtonMain">Try MediLink</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo">MediLink</div>
+                    <p class="footer-tagline">Smart prescription management made simple</p>
+                </div>
+                <nav class="footer-nav">
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#support">Support</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> MediLink. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script_intro.js"></script>
+</body>
+</html>
