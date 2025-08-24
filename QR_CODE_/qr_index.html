@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediLink - Scan QR Code</title>
+    <link rel="stylesheet" href="qr_style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="logo">MediLink</h1>
+            <p class="tagline">Your Digital Health Companion</p>
+        </div>
+        
+        <div class="qr-section">
+            <div class="qr-container">
+                <div class="qr-frame">
+                    <div class="qr-code" id="qr-code">
+                        <!-- QR Code will be generated here -->
+                    </div>
+                </div>
+                <div class="scan-indicator">
+                    <div class="scan-line"></div>
+                </div>
+            </div>
+            
+            <div class="instructions">
+                <h2>Scan to Get Your Medical Story</h2>
+                <p>Point your camera at the QR code to access your personalized medical history and health insights</p>
+                
+                <div class="features">
+                    <div class="feature">
+                        <span class="icon">📱</span>
+                        <span>Instant Access</span>
+                    </div>
+                    <div class="feature">
+                        <span class="icon">🏥</span>
+                        <span>Medical History</span>
+                    </div>
+                    <div class="feature">
+                        <span class="icon">💊</span>
+                        <span>Prescription Tracking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Secure • Private • HIPAA Compliant</p>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+    <script src="qr_script.js"></script>
+</body>
+</html>
